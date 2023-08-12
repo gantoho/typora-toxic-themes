@@ -1,0 +1,64 @@
+#typora-sidebar {
+    border-right: var(--window-border);
+}
+
+.use-file-tree-style #file-library-tree {
+    display: flex;
+}
+
+.file-tree-node {
+    width: 100%;
+    position: relative;
+}
+
+.file-node-background {
+    height: 100%;
+
+}
+
+#file-library-tree,
+.file-tree-node {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.file-node-content,
+.file-node-children .file-tree-node {
+    padding-left: 8px;
+}
+
+.file-tree-node.active {
+    font-weight: 900;
+}
+
+.file-tree-node.active>.file-node-background {
+    background-color: var(--toxic-theme-color);
+    border-left: 4px solid var(--toxic-theme-color-other);
+}
+
+.allow-file-tree-scroll .file-node-title {
+    width: 100%;
+    white-space: inherit;
+    overflow: unset;
+}
+
+.file-node-title-name-part {
+    white-space: normal;
+}
+
+.file-node-title-ext-part {
+    font-weight: 600;
+    color: var(--toxic-theme-color-other);
+}
+
+.outline-item-active {
+    background-color: var(--toxic-theme-color);
+    margin-left: -28px;
+    margin-right: -28px;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+}
+
+.outline-item:hover {
+    background-color: var(--toxic-theme-color-other);
+}

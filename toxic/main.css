@@ -1,0 +1,110 @@
+:root {
+    --bg-color: #2a2627;
+    /*改变背景色*/
+    --text-color: #e9e9e9;
+    /*改变文字颜色*/
+    --md-char-color: var(--toxic-theme-color-other);
+    /*改变元字符的颜色，例如 markdown 中的“*”*/
+    --meta-content-color: #006acc;
+    /*改变元内容的颜色，例如 markdown 中的图像文本和链接地址*/
+
+    --primary-color: #006acc;
+    /*主按钮的颜色*/
+    --primary-btn-border-color: #ffffff;
+    --primary-btn-text-color: #ffffff;
+
+    --window-border: 1px solid var(--text-color);
+    /*边栏等的边框*/
+
+    --active-file-bg-color: #eee;
+    /*文件树或文件列表中当前项的背景色*/
+    --active-file-text-color: inherit;
+    --active-file-border-color: #777;
+
+    --side-bar-bg-color: #272b28;
+    /*改变边栏颜色*/
+    --item-hover-bg-color: #006acc;
+    /*鼠标悬停时控件项的背景，如侧边栏中的菜单*/
+    --item-hover-text-color: #ffffff;
+    --monospace: monospace;
+    /*代码的等宽字体*/
+
+    --toxic-theme-color: #006acc;
+    --toxic-theme-color-other: #6eb5f7;
+}
+
+html,
+body,
+#write {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: MiSans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-color);
+}
+
+html {
+    font-size: 16px;
+}
+
+#write {
+    max-width: 900px;
+}
+
+h1 {
+    line-height: 4rem;
+    margin: 5rem 0 1.5rem;
+}
+
+h2 {
+    line-height: 3rem;
+    margin: 2rem 0 1.5rem;
+}
+
+h3 {
+    margin: 1rem 0 1.5rem;
+}
+
+h4 {
+    margin: 1rem 0 1rem;
+}
+
+h5 {
+    margin: 1rem 0 1rem;
+}
+
+h6 {
+    margin: 1rem 0 1rem;
+}
+
+p {
+    line-height: 1.75rem;
+    margin: 0 0 1.25rem;
+}
+
+a {
+    color: #006acc;
+    font-weight: 800;
+}
+
+a:hover {
+    color: #004d95;
+}
+
+.md-link:active a {
+    color: #fd3e81;
+}
+
+mark {
+	background-color: #006acc;
+	padding-left: .3em;
+	padding-right: .3em;
+	border-radius: 5px;
+}

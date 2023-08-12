@@ -110,6 +110,8 @@ code,
     background-color: #2d2d2d;
     border-radius: 5px;
 }
-.code-tooltip .ty-input, .code-tooltip input{
+
+.code-tooltip .ty-input,
+.code-tooltip input {
     line-height: 1;
 }

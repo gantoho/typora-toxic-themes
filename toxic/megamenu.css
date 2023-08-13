@@ -1,0 +1,7 @@
+.megamenu-menu{
+    background-color: #313436;
+}
+.megamenu-content {
+    background-color: var(--bg-color);
+    background: var(--bg-color);
+}

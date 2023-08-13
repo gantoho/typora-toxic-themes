@@ -8,19 +8,20 @@
     --primary-btn-border-color: #ffffff;
     --primary-btn-text-color: #ffffff;
 
-    --window-border: 1px solid var(--text-color);
+    --window-border: 1px solid #000000;
 
     --active-file-bg-color: #eee;
     --active-file-text-color: inherit;
     --active-file-border-color: #777;
 
-    --side-bar-bg-color: #272b28;
+    --side-bar-bg-color: #444444;
     --item-hover-bg-color: #006acc;
     --item-hover-text-color: #ffffff;
     --monospace: monospace;
 
     --toxic-theme-color: #006acc;
     --toxic-theme-color-other: #6eb5f7;
+
 }
 
 html,
@@ -53,25 +54,85 @@ h1 {
     margin: 5rem 0 1.5rem;
 }
 
+h1:hover::after {
+    content: "H1";
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: -50px;
+    color: rgb(95, 32, 32);
+    text-align: right;
+}
+
 h2 {
     line-height: 3rem;
     margin: 2rem 0 1.5rem;
+}
+
+h2:hover::after {
+    content: "H2";
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: -50px;
+    color: rgb(95, 32, 32);
+    text-align: right;
 }
 
 h3 {
     margin: 1rem 0 1.5rem;
 }
 
+h3:hover::after {
+    content: "H3";
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: -50px;
+    color: rgb(95, 32, 32);
+    text-align: right;
+}
+
 h4 {
     margin: 1rem 0 1rem;
+}
+
+h4:hover::after {
+    content: "H4";
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: -50px;
+    color: rgb(95, 32, 32);
+    text-align: right;
 }
 
 h5 {
     margin: 1rem 0 1rem;
 }
 
+h5:hover::after {
+    content: "H5";
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: -50px;
+    color: rgb(95, 32, 32);
+    text-align: right;
+}
+
 h6 {
     margin: 1rem 0 1rem;
+}
+
+h6:hover::after {
+    content: "H6";
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: -50px;
+    color: rgb(95, 32, 32);
+    text-align: right;
 }
 
 p {
@@ -93,8 +154,23 @@ a:hover {
 }
 
 mark {
-    background-color: #006acc;
+    background-color: #ff4400;
+    color: #ffffff;
+    font-weight: 900;
     padding-left: .3em;
     padding-right: .3em;
+}
+
+blockquote {
+    margin: 0;
+    background-color: var(--toxic-theme-color-other);
+    color: #000000;
     border-radius: 5px;
+    border-left: 5px solid var(--toxic-theme-color);
+    padding: 10px 20px;
+}
+
+blockquote p {
+    line-height: 1.5rem;
+    margin-bottom: .7rem;
 }

@@ -2,6 +2,10 @@
     border-right: var(--window-border);
 }
 
+.sidebar-tabs {
+    
+}
+
 .use-file-tree-style #file-library-tree {
     display: flex;
 }

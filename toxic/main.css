@@ -174,3 +174,11 @@ blockquote p {
     line-height: 1.5rem;
     margin-bottom: .7rem;
 }
+
+.md-rawblock-on-edit>.md-rawblock-tooltip, .md-rawblock:hover>.md-rawblock-container, .md-rawblock:hover>.md-rawblock-tooltip {
+    background: #252324;
+}
+
+.md-rawblock-control:not(.md-rawblock-tooltip) {
+    background-color: #252324;
+}

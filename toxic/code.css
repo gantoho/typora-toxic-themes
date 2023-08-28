@@ -13,6 +13,7 @@ code {
 }
 
 .md-fences {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -124,4 +125,10 @@ code {
 .code-tooltip .ty-input,
 .code-tooltip input {
     line-height: 1;
+}
+
+pre.md-meta-block {
+    background: #131313;
+    padding: 16px;
+    border-radius: 10px;
 }

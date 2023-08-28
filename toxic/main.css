@@ -10,9 +10,9 @@
 
     --window-border: 1px solid #000000;
 
-    --active-file-bg-color: #eee;
-    --active-file-text-color: inherit;
-    --active-file-border-color: #777;
+    --active-file-bg-color: #2f2f2f;
+    --active-file-text-color: #eee;
+    --active-file-border-color: #0099ff;
 
     --side-bar-bg-color: #444444;
     --item-hover-bg-color: #006acc;
@@ -20,12 +20,14 @@
     --monospace: monospace;
 
     --toxic-theme-color: #006acc;
-    --toxic-theme-color-other: #6eb5f7;
+    --toxic-theme-color-other: #283b4d;
 
     --select-text-bg-color: #87bfff;
     --select-text-font-color: #000000;
 
     --monospace: Consolas;
+
+    --rawblock-edit-panel-bd: #353334;
 }
 
 html,
@@ -168,7 +170,7 @@ mark {
 blockquote {
     margin: 0;
     background-color: var(--toxic-theme-color-other);
-    color: #000000;
+    color: #a8a8a8;
     border-radius: 5px;
     border-left: 5px solid var(--toxic-theme-color);
     padding: 10px 20px;
@@ -177,12 +179,4 @@ blockquote {
 blockquote p {
     line-height: 1.5rem;
     margin-bottom: .7rem;
-}
-
-.md-rawblock-on-edit>.md-rawblock-tooltip, .md-rawblock:hover>.md-rawblock-container, .md-rawblock:hover>.md-rawblock-tooltip {
-    background: #252324;
-}
-
-.md-rawblock-control:not(.md-rawblock-tooltip) {
-    background-color: #252324;
 }

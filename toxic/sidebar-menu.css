@@ -66,7 +66,3 @@
 .outline-item:hover {
     background-color: var(--toxic-theme-color-other);
 }
-
-.ty-sidebar-search-panel .searchpanel-search-option-btn.select, .ty-sidebar-search-panel .searchpanel-search-option-btn:hover {
-    background: #2f2f2f;
-}

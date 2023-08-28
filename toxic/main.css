@@ -22,6 +22,10 @@
     --toxic-theme-color: #006acc;
     --toxic-theme-color-other: #6eb5f7;
 
+    --select-text-bg-color: #87bfff;
+    --select-text-font-color: #000000;
+
+    --monospace: Consolas;
 }
 
 html,
@@ -181,13 +185,4 @@ blockquote p {
 
 .md-rawblock-control:not(.md-rawblock-tooltip) {
     background-color: #252324;
-}
-
-code, pre, samp, tt {
-    font-family: Consolas;
-}
-
-.in-text-selection, ::selection {
-    background: #87bfff;
-    color: #000000;
 }

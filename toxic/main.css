@@ -186,3 +186,8 @@ blockquote p {
 code, pre, samp, tt {
     font-family: Consolas;
 }
+
+.in-text-selection, ::selection {
+    background: #87bfff;
+    color: #000000;
+}

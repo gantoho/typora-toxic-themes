@@ -182,3 +182,7 @@ blockquote p {
 .md-rawblock-control:not(.md-rawblock-tooltip) {
     background-color: #252324;
 }
+
+code, pre, samp, tt {
+    font-family: Consolas;
+}

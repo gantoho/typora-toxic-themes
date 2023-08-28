@@ -1,6 +1,6 @@
 img {
 	border: 5px solid #eee;
-	border-radius: 5px;
+	border-radius: 10px;
 	transition: all .5s;
 	cursor: pointer;
 	-webkit-user-drag: none;
@@ -11,4 +11,5 @@ img {
 img:hover {
 	transform: scale(1.4);
 	border: 0;
+	z-index: 9999;
 }

@@ -17,7 +17,7 @@ code {
 }
 
 .CodeMirror div.CodeMirror-cursor {
-    border-left: var(--window-border);
+    border-left: 2px solid #c9c9c9;
 }
 
 .cm-s-inner .cm-keyword {
@@ -109,11 +109,16 @@ code {
 }
 
 .md-fences .code-tooltip {
-    top: 0;
+    top: calc(100%);
     right: 0;
     bottom: unset;
     background-color: #2d2d2d;
     border-radius: 5px;
+    border: 1px solid #7e7e7e;
+}
+
+.md-fences {
+    border-radius: 10px;
 }
 
 .code-tooltip .ty-input,

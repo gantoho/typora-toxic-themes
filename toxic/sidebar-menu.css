@@ -26,6 +26,10 @@
     padding-right: 0;
 }
 
+.file-node-content {
+    padding-bottom: 4px;
+}
+
 .file-node-content,
 .file-node-children .file-tree-node {
     padding-left: 8px;

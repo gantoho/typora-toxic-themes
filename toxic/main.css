@@ -1,7 +1,7 @@
 :root {
     --bg-color: #2a2627;
     --text-color: #e9e9e9;
-    --md-char-color: var(--toxic-theme-color-other);
+    --md-char-color: var(--text-color);
     --meta-content-color: #006acc;
 
     --primary-color: #006acc;
@@ -171,12 +171,24 @@ blockquote {
     margin: 0;
     background-color: var(--toxic-theme-color-other);
     color: #a8a8a8;
-    border-radius: 5px;
+    border-radius: 10px;
     border-left: 5px solid var(--toxic-theme-color);
     padding: 10px 20px;
+}
+
+blockquote + blockquote {
+    margin-top: 16px;
 }
 
 blockquote p {
     line-height: 1.5rem;
     margin-bottom: .7rem;
+}
+
+blockquote a {
+    color: #917a90;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+    background: transparent;
 }

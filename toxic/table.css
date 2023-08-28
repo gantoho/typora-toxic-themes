@@ -7,7 +7,7 @@ th {
 
 table thead {
     background-color: var(--toxic-theme-color-other);
-    color: #000000;
+    color: #cacaca;
 }
 
 thead th,

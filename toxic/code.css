@@ -132,3 +132,7 @@ pre.md-meta-block {
     padding: 16px;
     border-radius: 10px;
 }
+
+pre + p {
+    margin-top: 1.25rem;
+}

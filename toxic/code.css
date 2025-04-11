@@ -10,6 +10,9 @@ code,
 code {
     font-size: 14px;
     vertical-align: top;
+    color: #00ff80;
+    background-color: #245d40;
+    border: 1px dashed #00ff80;
 }
 
 .md-fences {
@@ -63,7 +66,9 @@ code {
 }
 
 .cm-s-inner .cm-comment {
-    color: #585d6d;
+    /* color: #585d6d; */
+    color: #6a9955;
+    font-weight: 900;
 }
 
 .cm-s-inner .cm-variable {
